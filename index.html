@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Juego Triki</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<!--Modal de Ganador -->
+    <a id="btnModal" data-toggle="modal" data-target="#aviso"></a>
+    <div class="modal fode" id="aviso" >
+        <div class="modal-dialog" >
+            <div class="modal-content" style="text-align: center;">
+                <div class="modal-body">
+                    <div id="imgWinner"></div>
+                    <div id="imgGanador"></div>
+                    <div id="ganador"></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="conta"> 
+    <!--Contenido del div titulo-->
+    <div id="titulo"><h1><img src="img/titulo.png"></h1></div>
+    <div id="cajon1">
+        <div id="imgCajon1">
+            <img src="img/cruz2.png">
+            <h1>JUGADOR</h1>
+        </div>
+    </div>
+    <div id="cajon2">
+        <div id="marco">
+            <div class="casilla" id="c1" onclick="jugar(1)"></div>
+            <div class="casilla" id="c2" onclick="jugar(2)"></div>
+            <div class="casilla" id="c3" onclick="jugar(3)"></div>
+            <div class="casilla" id="c4" onclick="jugar(4)"></div>
+            <div class="casilla" id="c5" onclick="jugar(5)"></div>
+            <div class="casilla" id="c6" onclick="jugar(6)"></div>
+            <div class="casilla" id="c7" onclick="jugar(7)"></div>
+            <div class="casilla" id="c8" onclick="jugar(8)"></div>
+            <div class="casilla" id="c9" onclick="jugar(9)"></div>
+        </div>
+        <!--<div id="boton">
+            <a href="juego.html">
+                <button type="button" class="btn btn-primary">Volver a jugar</button>
+            </a>
+        </div>-->
+    </div>
+    <div id="cajon3">
+        <div id="imgCajon3">
+            <img src="img/circulo2.png">
+            <h1>MAQUINA</h1>
+        </div>
+    </div>  
+</div>
+
+</body>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</html>

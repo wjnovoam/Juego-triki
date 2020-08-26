@@ -1,0 +1,122 @@
+@charset "utf8";
+body{
+    margin: 0px;
+}
+#conta{
+    width: 1350px;
+    height: 800px;
+    background-image: url(../img/fondo.jpg);
+    position:absolute;
+    background-repeat: no-repeat;
+}
+#titulo{
+    width: 1350px;
+    height: 200px;
+    background-color: transparent;
+    text-align: center;
+    color: tomato;
+}
+#cajon1{
+    height: 600px;
+    width: 400px;
+    float: left;
+    background-color: transparent;
+
+}
+#imgCajon1{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #02dce2;
+}
+#cajon2{
+    height: 600px;
+    width: 550px;
+    float: left;
+    background-color:transparent;
+}
+#boton{
+    width: 550px;
+    margin-top:70px;
+    text-align: center;
+}
+#cajon3{
+    height: 600px;
+    width: 400px;
+    float: left;
+    background-color:transparent;
+}
+#imgCajon3{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: #02dce2;
+}
+#marco
+{
+    width: 456px;
+    height: 456px;
+    border: 1px solid transparent;
+    /*border: 1px solid transparent;*/
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.casilla
+{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #02dce2;
+    float: left;
+    position: relative;
+}
+
+#c1
+{
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+#c2
+{
+    border-top-color: transparent;
+}
+
+#c3
+{
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+#c4
+{
+    border-left-color: transparent;
+}
+
+#c6
+{
+    border-right-color: transparent;
+}
+
+#c7
+{
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+#c8{
+    border-bottom-color: transparent;
+}
+
+#c9
+{
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
